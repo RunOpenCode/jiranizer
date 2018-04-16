@@ -1,0 +1,40 @@
+{
+    "name": "jiranizer",
+    "version": "1.0.0",
+    "description": "Jira tasks managing tool.",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RunOpenCode/jiranizer.git"
+    },
+    "author": {
+        "name": "Davor Topalic",
+        "email": "zero1geek@gmail.com",
+        "homepage": "http://www.runopencode.com",
+        "role": "Project lead"
+    },
+    "contributors": [
+        {
+            "name": "RunOpenCode members",
+            "email": "support@runopencode.com",
+            "homepage": "http://www.runopencode.com"
+        }
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RunOpenCode/jiranizer/issues"
+    },
+    "homepage": "https://github.com/RunOpenCode/jiranizer#readme",
+    "devDependencies": {
+        "@symfony/webpack-encore": "^0.20.0",
+        "node-sass": "^4.8.3",
+        "sass-loader": "^7.0.1",
+        "uglifyjs-webpack-plugin": "^1.2.4"
+    },
+    "dependencies": {
+        "webpack-jquery-ui": "^1.0.0"
+    }
+}

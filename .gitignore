@@ -1,7 +1,12 @@
-
-###> symfony/framework-bundle ###
+# Config
 /.env
-/public/bundles/
+
+# Cache, Logs
 /var/
+
+# Vendor
 /vendor/
-###< symfony/framework-bundle ###
+
+# Assets
+/node_modules/
+/public/bundles/
