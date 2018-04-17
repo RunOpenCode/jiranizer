@@ -1,4 +1,10 @@
 {
+  "assets/js/main.js": "/assets/js/main.js",
+  "assets/js/main.css": "/assets/js/main.css",
   "assets/css/main.css": "/assets/css/main.css",
-  "assets/js/main.js": "/assets/js/main.js"
+  "assets/fonts/glyphicons-halflings-regular.woff": "/assets/fonts/glyphicons-halflings-regular.fa277232.woff",
+  "assets/fonts/glyphicons-halflings-regular.ttf": "/assets/fonts/glyphicons-halflings-regular.e18bbf61.ttf",
+  "assets/fonts/glyphicons-halflings-regular.woff2": "/assets/fonts/glyphicons-halflings-regular.448c34a5.woff2",
+  "assets/fonts/glyphicons-halflings-regular.eot": "/assets/fonts/glyphicons-halflings-regular.f4769f9b.eot",
+  "assets/images/glyphicons-halflings-regular.svg": "/assets/images/glyphicons-halflings-regular.89889688.svg"
 }
