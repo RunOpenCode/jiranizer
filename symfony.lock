@@ -14,6 +14,9 @@
     "psr/simple-cache": {
         "version": "1.0.1"
     },
+    "symfony/asset": {
+        "version": "v4.0.8"
+    },
     "symfony/cache": {
         "version": "v4.0.6"
     },
@@ -98,7 +101,22 @@
             "ref": "cda8b550123383d25827705d05a42acf6819fe4e"
         }
     },
+    "symfony/twig-bridge": {
+        "version": "v4.0.8"
+    },
+    "symfony/twig-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "f75ac166398e107796ca94cc57fa1edaa06ec47f"
+        }
+    },
     "symfony/yaml": {
         "version": "v4.0.6"
+    },
+    "twig/twig": {
+        "version": "v2.4.8"
     }
 }
