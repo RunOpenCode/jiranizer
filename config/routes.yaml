@@ -1,2 +1,2 @@
 _jiranizer_app:
-    resource: routing/app.yaml
+    resource: routes/app.yaml
