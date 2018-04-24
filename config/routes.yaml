@@ -1,3 +1,2 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+_jiranizer_app:
+    resource: routing/app.yaml
