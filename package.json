@@ -35,11 +35,14 @@
         "uglifyjs-webpack-plugin": "^1.2.4"
     },
     "dependencies": {
+        "ajv": "^6.4.0",
         "bootstrap": "^4.1.0",
         "bootstrap-social": "^5.1.1",
         "bootstrap4-less": "^4.0.0-alpha.6.2",
+        "hoek": "^5.0.3",
         "jquery": "^3.3.1",
         "jquery-ui": "^1.12.1",
+        "popper.js": "^1.14.3",
         "webpack-jquery-ui": "^1.0.0"
     }
 }
