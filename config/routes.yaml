@@ -1,2 +1,5 @@
 _jiranizer_app:
     resource: routes/app.yaml
+
+_jiranizer_bootstraping:
+    resource: routes/bootstraping.yaml

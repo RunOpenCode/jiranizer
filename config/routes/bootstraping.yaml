@@ -1,0 +1,51 @@
+_jiranizer_bootstraping_index:
+    path: /bootstraping
+    controller: App\Controller\Bootstraping\BootstrapingController::bootstrapingAction
+
+_jiranizer_bootstraping_blank:
+    path: /bootstraping/blank
+    controller: App\Controller\Bootstraping\BootstrapingController::blankAction
+
+_jiranizer_bootstraping_buttons:
+    path: /bootstraping/buttons
+    controller: App\Controller\Bootstraping\BootstrapingController::buttonsAction
+
+_jiranizer_bootstraping_flot:
+    path: /bootstraping/flot
+    controller: App\Controller\Bootstraping\BootstrapingController::flotAction
+
+_jiranizer_bootstraping_forms:
+    path: /bootstraping/forms
+    controller: App\Controller\Bootstraping\BootstrapingController::formsAction
+
+_jiranizer_bootstraping_grid:
+    path: /bootstraping/grid
+    controller: App\Controller\Bootstraping\BootstrapingController::gridAction
+
+_jiranizer_bootstraping_icons:
+    path: /bootstraping/icons
+    controller: App\Controller\Bootstraping\BootstrapingController::iconsAction
+
+_jiranizer_bootstraping_login:
+    path: /bootstraping/login
+    controller: App\Controller\Bootstraping\BootstrapingController::loginAction
+
+_jiranizer_bootstraping_morris:
+    path: /bootstraping/morris
+    controller: App\Controller\Bootstraping\BootstrapingController::morrisAction
+
+_jiranizer_bootstraping_notifications:
+    path: /bootstraping/notifications
+    controller: App\Controller\Bootstraping\BootstrapingController::notificationsAction
+
+_jiranizer_bootstraping_panels_wells:
+    path: /bootstraping/panels-wells
+    controller: App\Controller\Bootstraping\BootstrapingController::panelsWellsAction
+
+_jiranizer_bootstraping_tables:
+    path: /bootstraping/tables
+    controller: App\Controller\Bootstraping\BootstrapingController::tablesAction
+
+_jiranizer_bootstraping_typography:
+    path: /bootstraping/typography
+    controller: App\Controller\Bootstraping\BootstrapingController::typographyAction
