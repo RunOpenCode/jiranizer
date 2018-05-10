@@ -16,4 +16,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/blank.html.twig');
     }
+
+    public function buttonsAction(Request $request)
+    {
+        return $this->render('_bootstraping/buttons.html.twig');
+    }
 }
