@@ -21,4 +21,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/buttons.html.twig');
     }
+
+    public function flotAction(Request $request)
+    {
+        return $this->render('_bootstraping/flot.html.twig');
+    }
 }
