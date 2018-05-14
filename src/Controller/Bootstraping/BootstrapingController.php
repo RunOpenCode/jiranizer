@@ -31,4 +31,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/forms.html.twig');
     }
+
+    public function gridAction(Request $request)
+    {
+        return $this->render('_bootstraping/grid.html.twig');
+    }
 }
