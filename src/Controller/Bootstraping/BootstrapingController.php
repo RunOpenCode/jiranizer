@@ -36,4 +36,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/grid.html.twig');
     }
+
+    public function iconsAction(Request $request)
+    {
+        return $this->render('_bootstraping/icons.html.twig');
+    }
 }
