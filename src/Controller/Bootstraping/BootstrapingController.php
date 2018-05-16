@@ -41,4 +41,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/icons.html.twig');
     }
+
+    public function loginAction(Request $request)
+    {
+        return $this->render('_bootstraping/login.html.twig');
+    }
 }
