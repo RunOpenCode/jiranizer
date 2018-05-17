@@ -46,4 +46,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/login.html.twig');
     }
+
+    public function morrisAction(Request $request)
+    {
+        return $this->render('_bootstraping/morris.html.twig');
+    }
 }
