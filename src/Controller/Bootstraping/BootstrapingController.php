@@ -51,4 +51,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/morris.html.twig');
     }
+
+    public function notificationsAction(Request $request)
+    {
+        return $this->render('_bootstraping/notifications.html.twig');
+    }
 }
