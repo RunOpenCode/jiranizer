@@ -56,4 +56,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/notifications.html.twig');
     }
+
+    public function panelsWellsAction(Request $request)
+    {
+        return $this->render('_bootstraping/panels_wells.html.twig');
+    }
 }
