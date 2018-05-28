@@ -66,4 +66,9 @@ class BootstrapingController extends Controller
     {
         return $this->render('_bootstraping/tables.html.twig');
     }
+
+    public function typographyAction(Request $request)
+    {
+        return $this->render('_bootstraping/typography.html.twig');
+    }
 }
