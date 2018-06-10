@@ -41,6 +41,7 @@
         "bootstrap4-less": "^4.0.0-alpha.6.2",
         "datatables": "^1.10.13",
         "datatables-responsive": "^1.0.7",
+        "datatables.net": "^1.10.16",
         "hoek": "^5.0.3",
         "jquery": "^3.3.1",
         "jquery-ui": "^1.12.1",
