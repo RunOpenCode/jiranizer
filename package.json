@@ -29,14 +29,14 @@
     },
     "homepage": "https://github.com/RunOpenCode/jiranizer#readme",
     "devDependencies": {
-        "@symfony/webpack-encore": "^0.20.0",
+        "@symfony/webpack-encore": "^0.20.1",
         "node-sass": "^4.9.0",
-        "sass-loader": "^7.0.1",
-        "uglifyjs-webpack-plugin": "^1.2.4"
+        "sass-loader": "^7.0.3",
+        "uglifyjs-webpack-plugin": "^1.2.5"
     },
     "dependencies": {
-        "ajv": "^6.4.0",
-        "bootstrap": "^4.1.0",
+        "ajv": "^6.5.1",
+        "bootstrap": "^4.1.1",
         "bootstrap-social": "^5.1.1",
         "bootstrap4-less": "^4.0.0-alpha.6.2",
         "datatables": "^1.10.13",
@@ -44,6 +44,7 @@
         "datatables.net": "^1.10.16",
         "datatables.net-plugins": "^1.10.15",
         "font-awesome": "^4.7.0",
+        "gridstack": "^0.4.0",
         "hoek": "^5.0.3",
         "jquery": "^3.3.1",
         "jquery-ui": "^1.12.1",
