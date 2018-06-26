@@ -55,6 +55,7 @@
         "metismenu": "^2.7.8",
         "morris.js": "^0.5.0",
         "popper.js": "^1.14.3",
+        "raphael": "^2.2.7",
         "webpack-jquery-ui": "^1.0.0"
     }
 }
