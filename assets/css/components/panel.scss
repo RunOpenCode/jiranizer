@@ -1,0 +1,97 @@
+// Bootstrap panel override
+.grid-stack-item {
+    
+    .grid-stack-item-content {
+        padding: 50px 0px;
+        
+        .mCustomScrollBox {
+            cursor: move;
+        }
+    }
+    
+    .panel-heading {
+        padding: 10px 15px;
+        position: absolute;
+        left: 10px;
+        right: 10px;
+        z-index: 10;
+        border-bottom: 1px solid transparent;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        color: white;
+        
+        .dropdown-toggle {
+            min-width: 24px;
+        }
+    }
+    
+    .panel-footer {
+        padding: 10px;
+        margin: -42px 12px 0px 12px;
+        position: relative;
+        top: 100%;
+        background-color: #f5f5f5;
+        border-top: 1px solid #ddd;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    
+    .panel {
+        
+        .panel-body {
+            
+            .table-responsive {
+                padding: 0 20px;
+            }
+            
+            &.p0 {
+                padding: 0;
+            }
+        }
+        
+        &.panel-green {
+            
+            .mCSB_dragger {
+                background: $base-green-dark;
+                
+                .mCSB_dragger_bar {
+                    background: $base-green-dark;
+                }
+            }
+        }
+        
+        &.panel-red {
+            
+            .mCSB_dragger {
+                background: $base-red-dark;
+                
+                .mCSB_dragger_bar {
+                    background: $base-red-dark;
+                }
+            }
+        }
+        
+        &.panel-yellow {
+            
+            .mCSB_dragger {
+                background: $base-yellow-dark;
+                
+                .mCSB_dragger_bar {
+                    background: $base-yellow-dark;
+                }
+            }
+        }
+        
+        &.panel-primary {
+            border-color: $base-color;
+            
+            .mCSB_dragger {
+                background: $base-color;
+                
+                .mCSB_dragger_bar {
+                    background: $base-color;
+                }
+            }
+        }
+    }
+}
