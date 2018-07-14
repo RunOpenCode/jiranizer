@@ -1,0 +1,38 @@
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    
+    .modal-header {
+        
+        h5 {
+            display: inline-block;
+            font-size: 1.5em;
+        }
+    }
+    
+    @media(max-width: 768px) {
+        min-height: calc(100vh - 20px);
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .modal-fullscreen-xs-down {
+        @include modal-fullscreen();
+    }
+}
+
+@media (max-width: 991px) {
+    .modal-fullscreen-sm-down {
+        @include modal-fullscreen();
+    }
+}
+
+@media (max-width: 1199px) {
+    .modal-fullscreen-md-down {
+        @include modal-fullscreen();
+    }
+}
