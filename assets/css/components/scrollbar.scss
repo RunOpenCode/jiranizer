@@ -1,0 +1,27 @@
+// Malihu scrollbar style override
+.mCSB_inside > .mCSB_container {
+    margin-right: 0;
+}
+
+.mCSB_scrollTools {
+    
+    .mCSB_draggerContainer {
+        width: 10px;
+        
+        .mCSB_dragger {
+            @include border-radius(5px);
+            width: 12px;
+            background: $base-color;
+            height: 50px !important;
+            left: 2px;
+            
+            .mCSB_dragger_bar {
+                background: $base-color;
+            }
+        }
+    }
+    
+    .mCSB_draggerRail {
+        display: none;
+    }
+}
