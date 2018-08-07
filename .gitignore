@@ -10,3 +10,10 @@
 # Assets
 /node_modules/
 /public/bundles/
+
+# Apache config
+/public/.htaccess
+
+# Idea
+/.idea/
+/jiranizer.iml
