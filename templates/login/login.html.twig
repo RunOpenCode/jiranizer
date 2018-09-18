@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4 col-md-offset-4">
+
+                <div class="login-panel panel panel-default">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{ 'login.title'|trans }}</h3>
+                    </div>
+
+                    <div class="panel-body">
+
+                        {{ form_start(form) }}
+                        {{ form_errors(form) }}
+
+                        <fieldset>
+
+                            <div class="form-group">
+                                {{ form_widget(form.email, { attr: { placeholder: 'login.form.email.placeholder', class: 'form-control' } }) }}
+                                {{ form_errors(form.email) }}
+                            </div>
+
+                            <div class="form-group">
+                                {{ form_widget(form.password, { attr: { placeholder: 'login.form.password.placeholder', class: 'form-control' } }) }}
+                                {{ form_errors(form.password) }}
+                            </div>
+
+                            <button type="submit" class="btn btn-lg btn-success btn-block" formnovalidate>
+                                {{ 'login.form.submit'|trans }}
+                            </button>
+
+                            <div class="row">
+
+                                <div class="col-xs-6">
+                                    <div class="text-left">
+                                        <a href="{{ path('jiranizer_lost_password') }}">
+                                            {{ 'login.lostPassword'|trans }}
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <div class="text-right">
+                                        <a href="{{ path('jiranizer_generic_signup') }}">
+                                            {{ 'login.signUp'|trans }}
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </fieldset>
+
+                        {{ form_rest(form) }}
+                        {{ form_end(form) }}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock body %}
