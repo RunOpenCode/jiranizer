@@ -1,0 +1,68 @@
+{% extends '@App/layout.html.twig' %}
+
+{% block body %}
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4 col-md-offset-4">
+
+                <div class="login-panel panel panel-default">
+
+                    <div class="panel-heading">
+                        <h3 class="panel-title">{{ 'jira.form.title'|trans }}</h3>
+                    </div>
+
+                    <div class="panel-body">
+
+                        {{ form_start(form) }}
+                        {{ form_errors(form) }}
+
+                        <fieldset>
+
+                            <div class="form-group">
+                                {{ form_widget(form.title, { attr: { placeholder: 'jira.form.field.title', class: 'form-control' } }) }}
+                                {{ form_errors(form.title) }}
+                            </div>
+
+                            <div class="form-group">
+                                {{ form_widget(form.url, { attr: { placeholder: 'jira.form.field.url', class: 'form-control' } }) }}
+                                {{ form_errors(form.url) }}
+                            </div>
+
+                            <div class="form-group">
+                                {{ form_widget(form.username, { attr: { placeholder: 'jira.form.field.username', class: 'form-control' } }) }}
+                                {{ form_errors(form.username) }}
+                            </div>
+
+                            <div class="form-group">
+                                {{ form_widget(form.password.first, { attr: {placeholder:'jira.form.field.password'|trans, class: 'form-control' } }) }}
+                                {{ form_errors(form.password.first) }}
+                            </div>
+
+                            <div class="form-group">
+                                {{ form_widget(form.password.second, { attr: {placeholder:'jira.form.field.passwordRepeat'|trans, class: 'form-control' } }) }}
+                                {{ form_errors(form.password.second) }}
+                            </div>
+
+                            <button type="submit" class="btn btn-lg btn-success btn-block" formnovalidate>
+                                {{ 'jira.form.field.submit'|trans }}
+                            </button>
+
+                        </fieldset>
+
+                        {{ form_rest(form) }}
+                        {{ form_end(form) }}
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+{% endblock body %}
